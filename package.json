@@ -1,0 +1,19 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Devashish",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "json-socket": "*",
+    "simple-node-logger":"^0.93.37",
+    "net":"^1.0.2",
+    "request":"^2.83.0",
+    "uuid": "~3.1.0",
+    "readline-sync": "~1.4.7"
+  }
+}
